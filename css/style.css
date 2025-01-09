@@ -1,0 +1,496 @@
+@import url("https://v1.fontapi.ir/css/Lalezar");
+@import url("https://v1.fontapi.ir/css/Vazir");
+@import url("https://v1.fontapi.ir/css/Yekan");
+
+.vazir {
+  font-family: "Vazir";
+}
+.lalezar {
+  font-family: "Lalezar";
+}
+.yekan {
+  font-family: "Yekan";
+}
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+/* استایل کلی هدر */
+header {
+  padding: 2px 20px;
+  background-color: #fff;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 5px;
+    
+  }
+  .top-center{
+    text-align: center;
+  }
+}
+
+.img-fluid-2 {
+  padding: 10px 0;
+}
+.list-top {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.titr {
+  padding: 10px 15px;
+  color: #344456;
+  font-family: "Yekan";
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.titr-2 {
+  all: unset;
+  padding: 5px;
+  font-family: "Yekan";
+  font-size: 16px;
+  color: #344456;
+  margin: 5px;
+  cursor: pointer;
+}
+.titr-2:hover {
+  background-color: rgba(142, 248, 121, 0.308);
+  border-radius: 8px;
+}
+.titr-2 i {
+  margin-right: 5px;
+}
+.titr-2:hover i {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in;
+}
+.btn-1,
+.btn-2 {
+  all: unset;
+  padding: 8px 15px;
+  font-family: "Yekan";
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-1 {
+  color: #344456;
+}
+.btn-2 {
+  background-color: #007070;
+  color: #ffff;
+}
+.fluid-color {
+  background-color: rgb(37 51 67);
+}
+.displaying {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+}
+.new {
+  all: unset;
+  background-color: #ff0066;
+  padding: 4px 12px;
+  margin-left: 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Yekan";
+  font-size: 12px;
+}
+.ads {
+  color: #fff;
+  font-size: 13px;
+  align-self: center;
+  cursor: pointer;
+}
+.ads i {
+  margin-right: 15px;
+  font-size: 16px;
+}
+span {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  background-image: url(../img/download.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+.hone {
+  color: #253343;
+  font-size: 45px;
+  padding: 80px 0 0;
+  font-family: "Vazir";
+}
+.bio {
+  color: #394460;
+  font-size: 30px;
+}
+.desc {
+  text-align: justify;
+  padding: 20px 0;
+  color: #465a71;
+}
+.btn-3,
+.btn-4 {
+  padding: 12px 24px;
+  margin: 55px 2px 120px;
+  border: 0;
+  font-size: 16px;
+  border-radius: 0.5rem;
+  font-family: "Vazir";
+  font-weight: bold;
+}
+.btn-3 {
+  background-color: #00a7a7;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-3:hover {
+  background-color: #005e5e;
+  transition: all 0.4s ease;
+}
+.btn-4 {
+  border: 1px solid #00a7a7;
+  background-color: transparent;
+  color: #00a7a7;
+  cursor: pointer;
+}
+.btn-4:hover {
+  background-color: #00a7a7;
+  color: #ffff;
+  transition: all 0.4s ease;
+}
+
+.part-2 {
+  background-color: rgb(243 247 252 / 0%);
+  padding-top: 150px;
+  font-family: "Vazir";
+  margin-bottom: 150px;
+}
+.ech3 {
+  padding: 15px 0;
+  color: #00a7a7;
+}
+.ech1 {
+  color: #344456;
+  font-size: 35px;
+}
+.serevrs {
+  list-style-type: none;
+  padding: 50px 0;
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+@media screen and (max-width: 835px) {
+  .serevrs{
+    overflow-x: scroll;
+    scrollbar-width: thin;
+  }
+}
+.serevrs li {
+  color: #344456;
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.serevrs li:first-child {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #00baba;
+}
+.serv {
+  margin: 0 20px;
+  width: 8%;
+}
+.sub {
+  font-size: 24px;
+  color: #007070;
+  margin-bottom: 35px;
+}
+.line {
+  font-size: 23px;
+  padding-left: 15px;
+}
+.sub-desc {
+  color: #566e88;
+  font-size: 16px;
+  text-align: justify;
+  margin: 0 0 35px 35px;
+}
+.more {
+  color: #007070;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.more i {
+  margin-right: 16px;
+}
+p.more:hover i {
+  transform: translateX(-1.9px);
+}
+
+.part-middle {
+  padding: 70px 0 90px;
+  background: linear-gradient(90deg, rgb(6, 78, 75), rgb(6, 32, 35) 64%);
+  font-family: "Vazir";
+  margin-bottom: 50px;
+}
+.part-middle h2 {
+  color: #00a7a7;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.part-middle h1 {
+  color: #ffff;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.part-middle p {
+  color: #bfeeee;
+  font-size: 18px;
+  text-align: justify;
+}
+.second {
+  margin-top: 85px;
+  display: flex;
+  font-family: "Vazir";
+  font-weight: bold;
+}
+.part-middle .container span {
+  margin-left: 10px;
+  color: #00baba;
+}
+.part-middle .container .number {
+  color: #00baba;
+  font-size: 20px;
+}
+.part-middle .container small {
+  color: #ffff;
+}
+
+.ech4 {
+  color: #00a7a7;
+  font-size: 16px;
+  font-family: "Vazir";
+  margin: 0px 0px 12px;
+}
+.mid-2 {
+  padding-bottom: 128px;
+}
+.ech {
+  color: #344456;
+  font-size: 24px;
+  font-family: "Vazir";
+  margin: 0pc 0px 24px;
+}
+.desc4 {
+  color: #566e88;
+  font-size: 16px;
+  margin: 0px 0px 64px;
+  text-align: justify;
+  width: 68%;
+  font-family: "Vazir";
+}
+.middle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.middle div {
+  margin-left: 50px;
+  color: #344456;
+  font-size: 16px;
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 3px solid lightgray;
+}
+.middle div:last-child {
+  color: #00a7a7;
+  font-weight: bold;
+  border-bottom: 3px solid #00a7a7;
+}
+.middle div:hover {
+  color: #00a7a7;
+}
+
+.middle div i {
+  margin: 0 5px;
+  font-size: 20px;
+}
+.relate-to-company {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.first{
+  margin: 0 10px;
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+  border-radius: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+  padding: 20px 15px;
+  color: #344456;
+  font-size: 16px;
+  font-family: "Vazir";
+  cursor: pointer;
+  width: 50%;
+}
+.first:hover{
+  border: 1px solid #00a7a7;
+  transition: all 0.3s ease-in;
+}
+.first h2{
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.first h2 i{
+  margin-left: 5px;
+  color: #00a7a7;
+}
+
+.arr {
+  margin-right: 25%;
+  opacity: 0;
+}
+.first:hover .arr{
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+.relate-to-company p {
+  color: #566e88;
+  font-size: 14px;
+}
+section.boxi{
+  position: relative;
+  top: 100px;
+}
+.box {
+  background: linear-gradient(90deg, #105151, #256f6e 0, #001215 86%),
+    url("../img/خط.png");
+  background-size: contain;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  padding: 52px 80px;
+  border-radius: 1.5rem;
+}
+
+.exer,
+.para {
+  color: #ffff;
+  font-family: "Vazir";
+}
+.box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para {
+  font-size: 20px;
+  padding: 15px 0;
+}
+
+.box-2 button {
+  all: unset;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Vazir";
+  color: #0b3a42;
+  background-color: rgb(255 255 255);
+  width: 14rem;
+  padding: 10px 25px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.box-2 button:hover {
+  background-color: rgb(233 237 245);
+}
+
+section.box-3 {
+  padding: 0px 0px 128px;
+  background-color: rgb(246 249 252);
+  padding-top: 200px;
+}
+
+.relate-to-company-2 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.relate-to-company-2 p {
+  color: #566e88;
+  font-size: 14px;
+}
+.first-2 {
+  margin: 5px 10px;
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 3px 8px;
+  border-radius: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+  padding: 20px 15px;
+  color: #344456;
+  font-size: 16px;
+  font-family: "Vazir";
+  cursor: pointer;
+}
+.first-2:hover {
+  border: 1px solid #00a7a7;
+  transition: all 0.3s ease-in;
+}
+.first-2 h2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.first-2 h2 i {
+  margin-left: 5px;
+  color: #00a7a7;
+}
+
+.arr {
+  margin-right: 25%;
+  opacity: 0;
+}
+.first-2:hover .arr {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+/* .footer {
+  background-color: #37517e;
+  padding: 70px 20px;
+  color: white;
+}
+.footer h2 {
+  padding: 20px 0;
+  font-family: "Lalezar";
+  font-size: 25px;
+}
+.footer p {
+  font-family: "Vazir";
+}
+.footer img {
+  width: 80px;
+  cursor: pointer;
+} */
